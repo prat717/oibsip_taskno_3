@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'montes';
+    src: url("font/Montserrat-Bold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'montes';
+    src: url("font/Montserrat-semibold.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'montes';
+    src: url("font/Montserrat-Medium.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'montes';
+    src: url("font/Montserrat-Regular.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'montes';
+    src: url("font/Montserrat-Light.otf");
+    font-weight: 200;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'montes';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+
+}
+
+h1 {
+    color: rgb(165, 0, 165);
+    font-size: 2.5em;
+    font-family: 'montes', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5%;
+
+}
+
+h3 {
+    color: white;
+    font-size: 1.2em;
+    font-family: 'montes', sans-serif;
+    font-weight: 400;
+    margin: 0.5em;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: white;
+    font-weight: 500;
+}
+
+
+form {
+    background-color: rgba(41, 41, 41, 0.476);
+    padding: 5rem;
+    height: 60vh;
+}
+
+
+
+#temp,
+#tempopt {
+
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(41, 41, 41);
+    margin: 1.5rem 0;
+}
+
+#temp {
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: 400;
+    width: 40%;
+}
+
+#temp::placeholder {
+    color: rgb(86, 86, 86);
+
+
+}
+
+#tempopt {
+    padding: 0.5rem 1rem;
+    color: grey;
+    font-weight: 400;
+}
+
+#submit{
+    background-color: rgb(200, 0, 193);
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result-dis{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    display: block;
+    
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    
+}
